@@ -15,5 +15,3 @@ def aposta():
     print(joc.quantitat)
     with use_scope('quantitat', clear=True):
         put_text("hola")
-
-    put_text("Prova")
